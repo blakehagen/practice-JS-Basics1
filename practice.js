@@ -98,11 +98,11 @@ welcome(getName);
 
   //Code Here
 
-  var newMyName = myName();
+  var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
-alert(newMyName);
+alert(newMyName());
 
 
 //Next problem
